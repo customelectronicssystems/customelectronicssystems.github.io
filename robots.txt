@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Disallow: /traffic/
+Disallow: /stats/
+Disallow: /Paramount/

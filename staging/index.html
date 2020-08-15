@@ -1,0 +1,182 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="EN" lang="EN" dir="ltr">
+<head profile="http://gmpg.org/xfn/11">
+<title>CES - Home</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="imagetoolbar" content="no" />
+<link rel="stylesheet" href="styles/layout.css" type="text/css" />
+<!-- include jQuery library -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<!-- include Cycle plugin -->
+<script type="text/javascript" src="js/jquery.cycle.all.latest.js"></script>
+<script type="text/javascript"> 
+/* <![CDATA[ */
+
+$(function() {
+    $('#pause').click(function() { $('#slides').cycle('pause'); return false; });
+    $('#play').click(function() { $('#slides').cycle('resume'); return false; });
+    $('#slideshow').hover(
+        function() { $('#controls').fadeIn(); },
+        function() { $('#controls').fadeOut(); }
+    );
+    $('#slides').cycle({
+        fx:     'fade',
+        speed:   400,
+        timeout: 6000,
+		cleartype:  false,
+		pause:	 1,
+        next:   '#next',
+        prev:   '#prev'
+    });
+});
+/* ]]> */
+
+</script>
+
+
+<script language="JavaScript" type="text/javascript">
+<!--
+// simple google search button: scripts.tropicalpcsolutions.com
+function search_google(){ 
+window.open("http://www.google.com/search?q="+document.search.query.value+"+site:draftrange.com"); 
+}
+//-->
+</script>
+
+</head>
+<body id="top">
+<div class="wrapper col1">
+  <div id="header">
+    <div id="logo"> <img src="images/banner-ces.jpg" width="960" height="115" alt="banner" /> </div>
+    <br class="clear" />
+  </div>
+</div>
+
+<div class="wrapper col2">
+  <div id="topbar">
+    <div id="topnav">
+      <ul>
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="products/solutions.html">Solutions For&#8230;</a>
+          <ul>
+            <li><a href="products/custom.html">Custom Solutions</a></li>
+            <li><a href="products/air_gas_fluids.html">Air, Gas, &amp; Fluid Flow</a></li>
+            <li><a href="products/pressure.html">Pressure Management</a></li>
+            <li><a href="products/porosity.html">Permeability / Porosity</a></li>
+            <li><a href="products/leak_testers.html">Leak &amp; Seal Testers</a></li>
+            <li><a href="products/ph.html">pH</a></li>
+            <li><a href="products/position.html">Position Sensing</a></li>
+			<li><a href="products/purge_systems.html">Purge Systems</a></li>
+            <li><a href="products/temp-humidity.html">Temperature &amp; Humidity</a></li>
+          </ul>
+        <li> <a href="products/index.html">Products</a>
+          <ul>
+            <li><a href="products/solutions.html">By Problems They Solve</a></li>
+            <li><a href="products/index.html">By Product Type</a></li>
+            <li><a href="products/custom.html">Custom Solutions</a></li>
+          </ul>
+        </li>
+        <li> <a href="quality.html">Quality</a>
+          <ul>
+            <li><a href="pride_policy.html">Pride Policy</a></li>
+            <li><a href="guarantee.html">Six-Year Guarantee</a></li>
+          </ul>
+        </li>
+        <li><a href="support.html">Support</a>
+          <ul>
+            <li><a href="support.html">Technical Support</a></li>          
+            <li><a href="educational_info.html">Educational Information</a></li>
+          </ul>
+        </li>       
+        <li class="last"><a href="contact_us.html">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <br class="clear" />
+  </div>
+</div>
+
+<div class="wrapper col3">
+  <div id="intro">
+    <div class="fl_left">
+      <h2>Quality that's noticeably different.</h2>
+      <p class="comment_odd">Commercial Instrumentation designed and built so well, we offer an industry leading <a href="guarantee.html">Six-Year Zero Defects Guarantee</a>. No other company offers this kind of guarantee because no one builds instruments like we do. This dedication to quality is at the heart of our &quot;CES Pride Policy&quot;.</p>
+      <p class="readmore"><a href="pride_policy.html">Learn more... &gt;</a></p>
+    </div>
+    <div class="fl_right">
+      <div id="slideshow">
+        <div id="controls"> <span><a href="" id="prev">Prev</a></span> <span><a href="" id="next">Next</a></span> | <span><a href="" id="pause">Pause</a></span> <span><a href="" id="play">Play</a></span> </div>
+        <div id="slides" class="pics"> <a href="products/air_gas_fluids.html"><img src="images/slide01-air_380x300p.jpg" width="380" height="300" /></a>
+          <a href="products/porosity.html"><img src="images/slide02-porosity_380x300p.jpg" width="380" height="300" /></a>
+          <a href="products/custom.html"><img src="images/slide03-custom_380x300p.jpg" width="380" height="300" /></a>
+        </div>
+      </div>
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+<div class="wrapper col5">
+  <div id="container">
+    <div id="content">
+      <h2>Commercial &amp; Industrial Instrumentation done right</h2>
+      <p>For over 30 years, we've specialized in the design and manufacturing of precision instruments that monitor and control airflow, fluid flow, and industrial processes for a wide variety of industries and applications. We also have decades of experience designing <a href="products/custom.html">custom instrumentation</a> for commercial and industrial purposes.</p>
+      <p>A wide variety of organizations have deployed our <a href="products/solutions.html">unique solutions</a> including Fortune 500 Organizations, the Federal Government, Ivy League Institutions, as well as numerous small and medium sized businesses.</p>
+      <p>It's very common for our instruments to remain in the field and maintain their calibration for twenty years or more. This is one reason we're able to offer our unmatched <a href="guarantee.html">Six-Year Guarantee</a> on all items we ship.</p>
+    </div>
+    <div id="column">
+      <div class="holder">
+        <h2>Accuracy and Repeatability</h2>
+        <ul id="latestnews">
+          <li> <img class="imgl" src="images/dart_1-(100x75).jpg" alt="" />
+            <p>Superior design and our commitment to quality ensures unrivaled results. <a href="quality.html">Click here</a> to discover what separates our products from<br />
+              <br />
+            We're so confident in the design and craftsmanship behind our instruments we guarantee the accuracy of our all our instruments for an industry unprecedented <a href="guarantee.html">Six-Year Guarantee</a>.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+<div class="wrapper col4">
+  <div id="services">
+    <ul>
+      <li>
+        <div class="fl_left"><img src="images/light_bulb.jpg" alt="" /></div>
+        <div class="fl_right">
+          <h2>Custom Solutions</h2>
+          <p><a href="contact_us.html">Contact us</a> today and we'll help solve your instrumentation issues with a <a href="products/custom.html">custom built solution</a> at a surprisingly affordable price.</p>
+          <p class="readmore"><a href="products/custom.html">Continue Reading &raquo;</a></p>
+        </div>
+      </li>
+      <li>
+        <div class="fl_left"><img src="images/smoke_100x180p.jpg" alt="" /></div>
+        <div class="fl_right">
+          <h2>Air Flow Perfected</h2>
+          <p>We specialize in developing solutions for <a href="products/air_gas_fluids.html">low air flow</a> applications. Our decades of practical experience will help ensure your project is a success<br />
+          </p>
+          <p class="readmore"><a href="products/air_gas_fluids.html">Continue Reading &raquo;</a></p>
+        </div>
+      </li>
+      <li class="last">
+        <div class="fl_left"><img src="images/education.gif" alt="" /></div>
+        <div class="fl_right">
+          <h2>Educational Information</h2>
+          <p>We're convinced that the more you know about the technology in our instruments, the more likely you are to become and remain a CES customer.</p>
+          <p class="readmore"><a href="educational_info.html">Continue Reading &raquo;</a></p>
+        </div>
+      </li>
+    </ul>
+    <br class="clear" />
+  </div>
+</div>
+<div class="wrapper col7">
+  <div id="copyright">
+    <hr />
+    <p class="fl_left">Copyright &copy; 2011  - All Rights Reserved - Custom Electronics Systems, Inc.</p>
+    <p class="fl_right">Template by <a href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+    <br class="clear" />
+  </div>
+</div>
+</body>
+</html>
